@@ -79,3 +79,37 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .landingpage {
+        .container {
+            grid-template-columns: 1fr;
+            width: 90%;
+            height: fit-content;
+            min-height: 30rem;
+            border-radius: 1rem;
+
+            .left, .right {
+                padding: 2rem;
+            }
+
+            .right {
+                h1 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+
+                .btns {
+                    height: 2.5rem;
+
+                    button, a {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
